@@ -1,5 +1,5 @@
 import { createStore as _createStore, applyMiddleware, compose } from 'redux';
-import reducer from '../redux/reducer';
+import reducer from './modules/reducer';
 import { composeWithDevTools } from 'remote-redux-devtools';
 
 export default function createStore() {
