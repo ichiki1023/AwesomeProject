@@ -1,5 +1,5 @@
 import React, {Component, PropTypes} from 'react';
-import * as Actions from 'redux/todoAction';
+import * as Actions from 'redux/modules/todoAction.js';
 import { connectActionAndState } from  'helpers/Connector';
 import { compose, onlyUpdateForPropTypes } from 'recompose';
 import List from './List';
