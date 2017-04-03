@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './style';
 import { View, ListView } from 'react-native';
-import TodoItem from 'components/atoms/TodoItem';
+import TodoItem from 'components/molecules/TodoItem';
 
 export default function render(props) {
   const {
